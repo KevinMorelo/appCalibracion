@@ -1,0 +1,33 @@
+# --- Node / NestJS ---
+node_modules/
+dist/
+.env
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Prisma
+prisma/dev.db
+
+# --- Python / FastAPI ---
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# --- Angular (cuando lo integres) ---
+.angular/
+dist/
+node_modules/
+
+# --- IDE / Sistema ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Otros ---
+logs/
+*.log
+coverage/
